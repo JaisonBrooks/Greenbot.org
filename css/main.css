@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    transition: background-color 0.5s ease;
+    background-color: #e5e5e5;
+}
+section:hover {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 6em;
+}
+header {
+    height: 240px !important;
+    transition: background-color 0.2s ease;
+    background-color: #259b24;
+    color: #ECEFF1;
+}
+header:hover {
+    background-color: #1d7c1c;
+    color: #fff;
+}
+.paragraph {
+    font-size: 2.75em;
+    line-height: 1.5;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.paragraph-top {
+    margin-top: 3%;
+}
+.paragraph-bottom {
+    margin-bottom: 3%;
+}
+.div-kitty {
+    padding: 5%;
+    display:block;
+}
+
+img {
+    transition: all 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 2px;
+    background: #455A64;
+}
+img:hover {
+    transform: rotate(15deg);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+.vertical-center {
+    height:100%;
+    width:100%;
+    margin-top: 0;
+    text-align: center;  /* align the inline(-block) elements horizontally */
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+.vertical-center > .container {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    color: #fff;
+    height: 160px;
+    background-color: #455A64;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+footer h2 {
+    font-size: 2.5em;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #ECEFF1;
+}
